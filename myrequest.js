@@ -115,6 +115,7 @@ class Requester extends Component {
                         onPress={()=>{Alert.alert(JSON.stringify('User ID: '+rowData.userId), rowData.body)}}
                         style={{color: 'red', 
                         paddingRight:10,
+<<<<<<< HEAD
                         paddingLeft:10,
                         backgroundColor: 'blue',
                         borderRadius:3,
@@ -122,6 +123,13 @@ class Requester extends Component {
                             {rowData.id}
                     </Text>
                     <Text style={{paddingLeft:5}}>{rowData.title}</Text>
+=======
+                        paddingLeft:5
+                        }}>
+                            {rowData.id}
+                    </Text>
+                    <Text>{rowData.title}</Text>
+>>>>>>> 45daccf176a070c418855a12a5f8573c7b906e9a
                 </View>
                 <Text >{rowData.body}</Text>
             </View>
